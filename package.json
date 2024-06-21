@@ -1,0 +1,43 @@
+{
+    "name": "@adamwett/no-touchy",
+    "version": "1.0.0",
+    "description": "higher order component that applies `disabled={true}` to a component of your choice recursively",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/adamwett/no-touchy"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "adamwett",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "@babel/cli": "^7.24.7",
+        "@babel/core": "^7.24.7",
+        "@babel/preset-env": "^7.24.7",
+        "@babel/preset-react": "^7.24.7",
+        "@types/react": "^18.3.3"
+    },
+    "dependencies": {
+        "react-native": "^0.74.2",
+        "typescript": "^5.5.2"
+    },
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es2022",
+        "esModuleInterop": true,
+        "strict": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "exclude": [
+            "node_modules",
+            "./node_modules",
+            "./node_modules/*",
+            "./node_modules/@types/node/index.d.ts"
+        ]
+    }
+}
